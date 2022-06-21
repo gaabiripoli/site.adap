@@ -1,0 +1,171 @@
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+body{
+    background-color:   #A9A9A9;
+    
+}
+.container{
+
+    margin-top: 40%;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+/*tela menor  que 599px*/
+@media screen and (max-widht: 599px){
+    .container{
+        margin-top: 20%;
+    }
+    }
+    /*maior que 600px */
+@media screen and (min-widht: 600px){
+    .container{
+        margin-top: 40%;
+
+    }
+    }
+/*telas maiores que 768px */
+@media screen and (min-widht: 780px) {
+    .container{
+        margin-top: 40%;}
+    
+    header{
+        background-color: rgba(119,136,153);
+        flex-direction: row;
+        font-size: 1.2em;
+        position: relative;
+
+    }
+
+    .menu-opções{
+        position: absolute;
+        right: 5%;
+        top: 50%;
+    }
+
+    .menu-opções ul li{
+        display: inline;
+        margin-left: 10px;
+    }
+    
+}
+
+
+
+
+
+header, footer{
+    background-color: rgba(119,136,153);
+    padding: 0.1%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #0000CD;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+
+
+
+p {
+    font-family: Georgia;
+    font-size: 1.2em;
+    color: #000000;
+    text-align: left;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    fonte-família: 'Ubuntu Mono', monoespaço
+}
+
+
+h2 {
+    text-align: center;
+    font-family: Georgia;
+    line-height: 2;
+    font-size: 1.9em
+}
+
+figure{
+
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%
+        }
+    
+    .imgtexto {
+      
+      border: 5px solid black;
+      widht: 70%;
+    }
+
+.menu-opções{
+    text-align: center;
+}
+
+
+.fixo{
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.ajustes{
+
+    line-height: 1;
+    text-align: center;
+}
+
+.ajustes li:hover{
+    background-color: #00BFFF;
+    color: blue;
+}
+
+ 
+
+
+h1{
+    
+    text-align: center;
+    color: #4169E1;
+    line-height: 2;
+    font-size: 2em;
+    fonte-família: 'Dela Gótico Um', cursivo;
+    fonte-família: 'Ubuntu Mono', monoespaço
+}
+
